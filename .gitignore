@@ -1,0 +1,9 @@
+
+# Ignorar documentos PDF
+*.pdf
+
+# Ignorar ficheros zip
+*.zip
+
+# Ignorar documentos odt
+*.odt

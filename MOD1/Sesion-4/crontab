@@ -1,0 +1,6 @@
+#
+# Fichero crontab para el ejercicio 4-10 de la sesión 4 de prácticas
+#
+# mes hora día-del-mes día-de-la-semana comando
+#m	h	dm	m	ds		comando
+*	*	*	*	*	"/home/alex/Universidad/Temas/2º/Cuatrimestre 1/SO/2º/SO-P-Todos_MaterialSesiones/MOD1/Sesion-4/listacores.sh" 2> error

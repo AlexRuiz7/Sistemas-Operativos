@@ -1,0 +1,13 @@
+
+
+UID -> USER IDENTIFIER  -> Nº entero que identfica al ususario en el sistema
+                           Root es 0
+
+GUID -> GROUP IDENTIFIER -> Nº de grupo al que pertence el usuario. 0 root group
+
+int stat(const char *path, struct stat *buf);
+
+stat() stats the file pointed to by path and fills in buf.
+
+
+printf(" %o ", atributos.st_mode" & 0777)
